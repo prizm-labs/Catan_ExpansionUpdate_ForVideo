@@ -42,11 +42,11 @@ public class TapGetUpdates : MonoBehaviour {
 		Green_PlayerDock.GetComponent<Animator> ().SetInteger ("Bounce", 1);
 		yield return new WaitForSeconds (0.1f);
 		Red_PlayerDock.GetComponent<Animator> ().SetInteger ("Bounce", 1);
-		yield return new WaitForSeconds (0.2f);
+		yield return new WaitForSeconds (0.0f);
 		Yellow_PlayerDock.GetComponent<Animator> ().SetInteger ("Bounce", 1);
-		yield return new WaitForSeconds (0.1f);
+		yield return new WaitForSeconds (0.0f);
 		Blue_PlayerDock.GetComponent<Animator> ().SetInteger ("Bounce", 1);
-		yield return new WaitForSeconds (1.0f);
+		yield return new WaitForSeconds (0.25f);
 		PirateTracker.GetComponent<Animator> ().SetInteger ("Bounce", 1);
 		EventDie.GetComponent<Animator> ().SetInteger ("Bounce", 1);
 
